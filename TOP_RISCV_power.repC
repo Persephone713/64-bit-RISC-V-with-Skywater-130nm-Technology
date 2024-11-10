@@ -1,0 +1,54 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : TOP_RISCV
+Version: U-2022.12-SP7
+Date   : Mon Oct 21 11:56:07 2024
+****************************************
+
+
+Library(s) Used:
+
+    scs130ms_tt_1.80v_25C (File: /users/ee500x/e1323337/riscv2/scs130ms_tt_1.80v_25C.db)
+
+
+Operating Conditions: scs130ms_tt_1.80v_25C   Library: scs130ms_tt_1.80v_25C
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  =   4.3667 uW   (90%)
+  Net Switching Power  = 476.2728 nW   (10%)
+                         ---------
+Total Dynamic Power    =   4.8430 uW  (100%)
+
+Cell Leakage Power     =   0.0000 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network  4.2778e-03            0.0000            0.0000        4.2778e-03  (  88.33%)  i
+register       1.7313e-06        1.3949e-06            0.0000        3.1567e-06  (   0.07%)
+sequential     3.9823e-07            0.0000            0.0000        4.3381e-07  (   0.01%)
+combinational  8.6731e-05        4.7483e-04            0.0000        5.6158e-04  (  11.60%)
+--------------------------------------------------------------------------------------------------
+Total          4.3667e-03 mW     4.7626e-04 mW         0.0000 nW     4.8430e-03 mW
+1

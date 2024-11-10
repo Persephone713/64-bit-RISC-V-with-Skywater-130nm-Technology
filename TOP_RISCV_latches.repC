@@ -1,0 +1,1893 @@
+ 
+****************************************
+Report : register
+Design : TOP_RISCV
+Version: U-2022.12-SP7
+Date   : Mon Oct 21 11:56:07 2024
+****************************************
+
+Attributes:
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+EX_inst/div_dividend_o_reg[0]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[1]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[2]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[3]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[4]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[5]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[6]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[7]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[8]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[9]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[10]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[11]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[12]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[13]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[14]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[15]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[16]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[17]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[18]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[19]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[20]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[21]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[22]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[23]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[24]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[25]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[26]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[27]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[28]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[29]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[30]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[31]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[32]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[33]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[34]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[35]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[36]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[37]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[38]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[39]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[40]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[41]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[42]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[43]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[44]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[45]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[46]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[47]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[48]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[49]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[50]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[51]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[52]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[53]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[54]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[55]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[56]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[57]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[58]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[59]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[60]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[61]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[62]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_dividend_o_reg[63]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[0]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[1]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[2]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[3]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[4]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[5]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[6]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[7]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[8]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[9]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[10]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[11]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[12]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[13]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[14]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[15]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[16]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[17]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[18]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[19]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[20]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[21]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[22]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[23]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[24]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[25]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[26]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[27]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[28]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[29]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[30]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[31]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[32]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[33]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[34]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[35]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[36]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[37]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[38]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[39]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[40]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[41]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[42]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[43]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[44]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[45]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[46]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[47]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[48]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[49]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[50]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[51]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[52]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[53]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[54]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[55]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[56]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[57]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[58]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[59]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[60]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[61]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[62]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_divisor_o_reg[63]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_op_o_reg[0]   scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_op_o_reg[1]   scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_op_o_reg[2]   scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_op_o_reg[3]   scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_op_o_reg[4]   scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_op_o_reg[5]   scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_op_o_reg[6]   scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_op_o_reg[7]   scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_op_o_reg[8]   scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_op_o_reg[9]   scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_reg_waddr_reg[0]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_reg_waddr_reg[1]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_reg_waddr_reg[2]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_reg_waddr_reg[3]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/div_reg_waddr_reg[4]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[0] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[1] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[2] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[3] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[4] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[5] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[6] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[7] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[8] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[9] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[10]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[11]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[12]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[13]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[14]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[15]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[16]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[17]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[18]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[19]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[20]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[21]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[22]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[23]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[24]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[25]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[26]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[27]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[28]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[29]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[30]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[31]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[32]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[33]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[34]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[35]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[36]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[37]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[38]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[39]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[40]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[41]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[42]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[43]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[44]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[45]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[46]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[47]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[48]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[49]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[50]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[51]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[52]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[53]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[54]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[55]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[56]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[57]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[58]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[59]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[60]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[61]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[62]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op1_o_reg[63]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[0] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[1] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[2] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[3] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[4] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[5] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[6] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[7] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[8] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[9] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[10]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[11]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[12]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[13]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[14]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[15]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[16]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[17]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[18]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[19]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[20]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[21]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[22]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[23]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[24]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[25]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[26]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[27]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[28]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[29]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[30]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[31]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[32]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[33]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[34]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[35]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[36]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[37]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[38]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[39]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[40]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[41]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[42]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[43]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[44]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[45]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[46]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[47]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[48]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[49]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[50]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[51]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[52]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[53]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[54]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[55]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[56]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[57]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[58]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[59]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[60]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[61]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[62]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op2_o_reg[63]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op_o_reg[0]  scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op_o_reg[1]  scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op_o_reg[2]  scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op_o_reg[3]  scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op_o_reg[4]  scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op_o_reg[5]  scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op_o_reg[6]  scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op_o_reg[7]  scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op_o_reg[8]  scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_op_o_reg[9]  scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_reg_waddr_reg[0]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_reg_waddr_reg[1]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_reg_waddr_reg[2]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_reg_waddr_reg[3]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+EX_inst/mult_reg_waddr_reg[4]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/addr_offset_o_reg[0]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/addr_offset_o_reg[1]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/addr_offset_o_reg[2]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/addr_offset_o_reg[3]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/addr_offset_o_reg[4]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/addr_offset_o_reg[5]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/addr_offset_o_reg[6]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/addr_offset_o_reg[7]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/addr_offset_o_reg[8]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/addr_offset_o_reg[9]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/addr_offset_o_reg[10]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/addr_offset_o_reg[11]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/addr_offset_o_reg[12]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/addr_offset_o_reg[13]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/addr_offset_o_reg[14]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/addr_offset_o_reg[15]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/addr_offset_o_reg[16]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/addr_offset_o_reg[17]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/addr_offset_o_reg[18]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/addr_offset_o_reg[19]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/addr_offset_o_reg[20]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[0]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[1]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[2]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[3]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[4]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[5]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[6]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[7]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[8]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[9]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[10]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[11]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[12]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[13]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[14]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[15]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[16]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[17]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[18]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[19]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[20]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[21]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[22]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[23]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[24]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[25]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[26]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[27]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[28]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[29]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[30]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[31]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[32]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[33]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[34]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[35]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[36]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[37]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[38]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[39]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[40]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[41]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[42]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[43]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[44]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[45]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[46]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[47]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[48]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[49]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[50]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[51]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[52]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[53]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[54]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[55]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[56]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[57]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[58]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[59]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[60]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[61]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[62]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/base_addr_o_reg[63]
+                          scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[0]      scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[1]      scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[2]      scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[3]      scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[4]      scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[5]      scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[6]      scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[7]      scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[8]      scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[9]      scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[10]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[11]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[12]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[13]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[14]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[15]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[16]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[17]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[18]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[19]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[20]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[21]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[22]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[23]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[24]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[25]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[26]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[27]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[28]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[29]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[30]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[31]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[32]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[33]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[34]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[35]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[36]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[37]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[38]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[39]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[40]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[41]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[42]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[43]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[44]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[45]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[46]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[47]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[48]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[49]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[50]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[51]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[52]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[53]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[54]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[55]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[56]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[57]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[58]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[59]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[60]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[61]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[62]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op1_o_reg[63]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[0]      scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[1]      scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[2]      scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[3]      scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[4]      scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[5]      scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[6]      scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[7]      scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[8]      scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[9]      scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[10]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[11]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[12]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[13]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[14]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[15]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[16]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[17]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[18]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[19]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[20]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[21]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[22]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[23]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[24]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[25]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[26]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[27]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[28]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[29]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[30]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[31]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[32]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[33]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[34]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[35]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[36]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[37]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[38]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[39]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[40]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[41]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[42]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[43]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[44]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[45]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[46]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[47]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[48]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[49]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[50]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[51]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[52]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[53]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[54]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[55]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[56]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[57]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[58]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[59]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[60]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[61]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[62]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/op2_o_reg[63]     scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/rd_addr_o_reg[0]  scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/rd_addr_o_reg[1]  scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/rd_addr_o_reg[2]  scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/rd_addr_o_reg[3]  scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/rd_addr_o_reg[4]  scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/rs1_addr_o_reg[0] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/rs1_addr_o_reg[1] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/rs1_addr_o_reg[2] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/rs1_addr_o_reg[3] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/rs1_addr_o_reg[4] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/rs2_addr_o_reg[0] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/rs2_addr_o_reg[1] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/rs2_addr_o_reg[2] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/rs2_addr_o_reg[3] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+ID_inst/rs2_addr_o_reg[4] scs130ms_dlrtp_1
+                                          scs130ms_tt_1.80v_25C
+                                                          22.377600 n
+--------------------------------------------------------------------------------
+Total 514 cells                                           11502.086254
+1

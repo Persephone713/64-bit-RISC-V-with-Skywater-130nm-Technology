@@ -1,0 +1,620 @@
+Warning: Worst timing paths might not be returned. (TIM-104)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -nworst 3
+        -greater_path 0.00
+        -max_paths 20
+Design : TOP_RISCV
+Version: U-2022.12-SP7
+Date   : Mon Oct 21 11:56:07 2024
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: scs130ms_tt_1.80v_25C   Library: scs130ms_tt_1.80v_25C
+Wire Load Model Mode: top
+
+  Startpoint: CLINT_inst/int_addr_o_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: PC_inst/pc_o_reg[2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                    Incr       Path
+  ---------------------------------------------------------------------------
+  clock clk (rise edge)                                    0.00       0.00
+  clock network delay (ideal)                              0.00       0.00
+  CLINT_inst/int_addr_o_reg[2]/CLK (scs130ms_dfxtp_1)      0.00 #     0.00 r
+  CLINT_inst/int_addr_o_reg[2]/Q (scs130ms_dfxtp_1)        0.20       0.20 r
+  U29743/Y (scs130ms_a22oi_1)                              0.05       0.25 f
+  U29746/Y (scs130ms_nand2_1)                              0.04       0.28 r
+  PC_inst/pc_o_reg[2]/D (scs130ms_dfxtp_1)                 0.00       0.28 r
+  data arrival time                                                   0.28
+
+  clock clk (rise edge)                                    0.00       0.00
+  clock network delay (ideal)                              0.00       0.00
+  PC_inst/pc_o_reg[2]/CLK (scs130ms_dfxtp_1)               0.00       0.00 r
+  library hold time                                       -0.03      -0.03
+  data required time                                                 -0.03
+  ---------------------------------------------------------------------------
+  data required time                                                 -0.03
+  data arrival time                                                  -0.28
+  ---------------------------------------------------------------------------
+  slack (MET)                                                         0.31
+
+
+  Startpoint: CLINT_inst/int_addr_o_reg[3]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: PC_inst/pc_o_reg[3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                    Incr       Path
+  ---------------------------------------------------------------------------
+  clock clk (rise edge)                                    0.00       0.00
+  clock network delay (ideal)                              0.00       0.00
+  CLINT_inst/int_addr_o_reg[3]/CLK (scs130ms_dfxtp_1)      0.00 #     0.00 r
+  CLINT_inst/int_addr_o_reg[3]/Q (scs130ms_dfxtp_1)        0.20       0.20 r
+  U29747/Y (scs130ms_a22oi_1)                              0.05       0.25 f
+  U29750/Y (scs130ms_nand2_1)                              0.04       0.28 r
+  PC_inst/pc_o_reg[3]/D (scs130ms_dfxtp_1)                 0.00       0.28 r
+  data arrival time                                                   0.28
+
+  clock clk (rise edge)                                    0.00       0.00
+  clock network delay (ideal)                              0.00       0.00
+  PC_inst/pc_o_reg[3]/CLK (scs130ms_dfxtp_1)               0.00       0.00 r
+  library hold time                                       -0.03      -0.03
+  data required time                                                 -0.03
+  ---------------------------------------------------------------------------
+  data required time                                                 -0.03
+  data arrival time                                                  -0.28
+  ---------------------------------------------------------------------------
+  slack (MET)                                                         0.31
+
+
+  Startpoint: CLINT_inst/int_addr_o_reg[4]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: PC_inst/pc_o_reg[4]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                    Incr       Path
+  ---------------------------------------------------------------------------
+  clock clk (rise edge)                                    0.00       0.00
+  clock network delay (ideal)                              0.00       0.00
+  CLINT_inst/int_addr_o_reg[4]/CLK (scs130ms_dfxtp_1)      0.00 #     0.00 r
+  CLINT_inst/int_addr_o_reg[4]/Q (scs130ms_dfxtp_1)        0.20       0.20 r
+  U29751/Y (scs130ms_a22oi_1)                              0.05       0.25 f
+  U29756/Y (scs130ms_nand2_1)                              0.04       0.28 r
+  PC_inst/pc_o_reg[4]/D (scs130ms_dfxtp_1)                 0.00       0.28 r
+  data arrival time                                                   0.28
+
+  clock clk (rise edge)                                    0.00       0.00
+  clock network delay (ideal)                              0.00       0.00
+  PC_inst/pc_o_reg[4]/CLK (scs130ms_dfxtp_1)               0.00       0.00 r
+  library hold time                                       -0.03      -0.03
+  data required time                                                 -0.03
+  ---------------------------------------------------------------------------
+  data required time                                                 -0.03
+  data arrival time                                                  -0.28
+  ---------------------------------------------------------------------------
+  slack (MET)                                                         0.31
+
+
+  Startpoint: CLINT_inst/int_addr_o_reg[6]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: PC_inst/pc_o_reg[6]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                    Incr       Path
+  ---------------------------------------------------------------------------
+  clock clk (rise edge)                                    0.00       0.00
+  clock network delay (ideal)                              0.00       0.00
+  CLINT_inst/int_addr_o_reg[6]/CLK (scs130ms_dfxtp_1)      0.00 #     0.00 r
+  CLINT_inst/int_addr_o_reg[6]/Q (scs130ms_dfxtp_1)        0.20       0.20 r
+  U29760/Y (scs130ms_a22oi_1)                              0.05       0.25 f
+  U29764/Y (scs130ms_nand2_1)                              0.04       0.28 r
+  PC_inst/pc_o_reg[6]/D (scs130ms_dfxtp_1)                 0.00       0.28 r
+  data arrival time                                                   0.28
+
+  clock clk (rise edge)                                    0.00       0.00
+  clock network delay (ideal)                              0.00       0.00
+  PC_inst/pc_o_reg[6]/CLK (scs130ms_dfxtp_1)               0.00       0.00 r
+  library hold time                                       -0.03      -0.03
+  data required time                                                 -0.03
+  ---------------------------------------------------------------------------
+  data required time                                                 -0.03
+  data arrival time                                                  -0.28
+  ---------------------------------------------------------------------------
+  slack (MET)                                                         0.31
+
+
+  Startpoint: CLINT_inst/int_addr_o_reg[10]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: PC_inst/pc_o_reg[10]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                     Incr       Path
+  ----------------------------------------------------------------------------
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  CLINT_inst/int_addr_o_reg[10]/CLK (scs130ms_dfxtp_1)      0.00 #     0.00 r
+  CLINT_inst/int_addr_o_reg[10]/Q (scs130ms_dfxtp_1)        0.20       0.20 r
+  U29776/Y (scs130ms_a22oi_1)                               0.05       0.25 f
+  U29780/Y (scs130ms_nand2_1)                               0.04       0.28 r
+  PC_inst/pc_o_reg[10]/D (scs130ms_dfxtp_1)                 0.00       0.28 r
+  data arrival time                                                    0.28
+
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  PC_inst/pc_o_reg[10]/CLK (scs130ms_dfxtp_1)               0.00       0.00 r
+  library hold time                                        -0.03      -0.03
+  data required time                                                  -0.03
+  ----------------------------------------------------------------------------
+  data required time                                                  -0.03
+  data arrival time                                                   -0.28
+  ----------------------------------------------------------------------------
+  slack (MET)                                                          0.31
+
+
+  Startpoint: CLINT_inst/int_addr_o_reg[12]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: PC_inst/pc_o_reg[12]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                     Incr       Path
+  ----------------------------------------------------------------------------
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  CLINT_inst/int_addr_o_reg[12]/CLK (scs130ms_dfxtp_1)      0.00 #     0.00 r
+  CLINT_inst/int_addr_o_reg[12]/Q (scs130ms_dfxtp_1)        0.20       0.20 r
+  U29784/Y (scs130ms_a22oi_1)                               0.05       0.25 f
+  U29789/Y (scs130ms_nand2_1)                               0.04       0.28 r
+  PC_inst/pc_o_reg[12]/D (scs130ms_dfxtp_1)                 0.00       0.28 r
+  data arrival time                                                    0.28
+
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  PC_inst/pc_o_reg[12]/CLK (scs130ms_dfxtp_1)               0.00       0.00 r
+  library hold time                                        -0.03      -0.03
+  data required time                                                  -0.03
+  ----------------------------------------------------------------------------
+  data required time                                                  -0.03
+  data arrival time                                                   -0.28
+  ----------------------------------------------------------------------------
+  slack (MET)                                                          0.31
+
+
+  Startpoint: CLINT_inst/int_addr_o_reg[14]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: PC_inst/pc_o_reg[14]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                     Incr       Path
+  ----------------------------------------------------------------------------
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  CLINT_inst/int_addr_o_reg[14]/CLK (scs130ms_dfxtp_1)      0.00 #     0.00 r
+  CLINT_inst/int_addr_o_reg[14]/Q (scs130ms_dfxtp_1)        0.20       0.20 r
+  U29793/Y (scs130ms_a22oi_1)                               0.05       0.25 f
+  U29797/Y (scs130ms_nand2_1)                               0.04       0.28 r
+  PC_inst/pc_o_reg[14]/D (scs130ms_dfxtp_1)                 0.00       0.28 r
+  data arrival time                                                    0.28
+
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  PC_inst/pc_o_reg[14]/CLK (scs130ms_dfxtp_1)               0.00       0.00 r
+  library hold time                                        -0.03      -0.03
+  data required time                                                  -0.03
+  ----------------------------------------------------------------------------
+  data required time                                                  -0.03
+  data arrival time                                                   -0.28
+  ----------------------------------------------------------------------------
+  slack (MET)                                                          0.31
+
+
+  Startpoint: CLINT_inst/int_addr_o_reg[15]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: PC_inst/pc_o_reg[15]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                     Incr       Path
+  ----------------------------------------------------------------------------
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  CLINT_inst/int_addr_o_reg[15]/CLK (scs130ms_dfxtp_1)      0.00 #     0.00 r
+  CLINT_inst/int_addr_o_reg[15]/Q (scs130ms_dfxtp_1)        0.20       0.20 r
+  U29798/Y (scs130ms_a22oi_1)                               0.05       0.25 f
+  U29800/Y (scs130ms_nand2_1)                               0.04       0.28 r
+  PC_inst/pc_o_reg[15]/D (scs130ms_dfxtp_1)                 0.00       0.28 r
+  data arrival time                                                    0.28
+
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  PC_inst/pc_o_reg[15]/CLK (scs130ms_dfxtp_1)               0.00       0.00 r
+  library hold time                                        -0.03      -0.03
+  data required time                                                  -0.03
+  ----------------------------------------------------------------------------
+  data required time                                                  -0.03
+  data arrival time                                                   -0.28
+  ----------------------------------------------------------------------------
+  slack (MET)                                                          0.31
+
+
+  Startpoint: CLINT_inst/int_addr_o_reg[19]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: PC_inst/pc_o_reg[19]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                     Incr       Path
+  ----------------------------------------------------------------------------
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  CLINT_inst/int_addr_o_reg[19]/CLK (scs130ms_dfxtp_1)      0.00 #     0.00 r
+  CLINT_inst/int_addr_o_reg[19]/Q (scs130ms_dfxtp_1)        0.20       0.20 r
+  U29812/Y (scs130ms_a22oi_1)                               0.05       0.25 f
+  U29817/Y (scs130ms_nand2_1)                               0.04       0.28 r
+  PC_inst/pc_o_reg[19]/D (scs130ms_dfxtp_1)                 0.00       0.28 r
+  data arrival time                                                    0.28
+
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  PC_inst/pc_o_reg[19]/CLK (scs130ms_dfxtp_1)               0.00       0.00 r
+  library hold time                                        -0.03      -0.03
+  data required time                                                  -0.03
+  ----------------------------------------------------------------------------
+  data required time                                                  -0.03
+  data arrival time                                                   -0.28
+  ----------------------------------------------------------------------------
+  slack (MET)                                                          0.31
+
+
+  Startpoint: CLINT_inst/int_addr_o_reg[20]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: PC_inst/pc_o_reg[20]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                     Incr       Path
+  ----------------------------------------------------------------------------
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  CLINT_inst/int_addr_o_reg[20]/CLK (scs130ms_dfxtp_1)      0.00 #     0.00 r
+  CLINT_inst/int_addr_o_reg[20]/Q (scs130ms_dfxtp_1)        0.20       0.20 r
+  U29818/Y (scs130ms_a22oi_1)                               0.05       0.25 f
+  U29821/Y (scs130ms_nand2_1)                               0.04       0.28 r
+  PC_inst/pc_o_reg[20]/D (scs130ms_dfxtp_1)                 0.00       0.28 r
+  data arrival time                                                    0.28
+
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  PC_inst/pc_o_reg[20]/CLK (scs130ms_dfxtp_1)               0.00       0.00 r
+  library hold time                                        -0.03      -0.03
+  data required time                                                  -0.03
+  ----------------------------------------------------------------------------
+  data required time                                                  -0.03
+  data arrival time                                                   -0.28
+  ----------------------------------------------------------------------------
+  slack (MET)                                                          0.31
+
+
+  Startpoint: CLINT_inst/int_addr_o_reg[21]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: PC_inst/pc_o_reg[21]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                     Incr       Path
+  ----------------------------------------------------------------------------
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  CLINT_inst/int_addr_o_reg[21]/CLK (scs130ms_dfxtp_1)      0.00 #     0.00 r
+  CLINT_inst/int_addr_o_reg[21]/Q (scs130ms_dfxtp_1)        0.20       0.20 r
+  U29822/Y (scs130ms_a22oi_1)                               0.05       0.25 f
+  U29824/Y (scs130ms_nand2_1)                               0.04       0.28 r
+  PC_inst/pc_o_reg[21]/D (scs130ms_dfxtp_1)                 0.00       0.28 r
+  data arrival time                                                    0.28
+
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  PC_inst/pc_o_reg[21]/CLK (scs130ms_dfxtp_1)               0.00       0.00 r
+  library hold time                                        -0.03      -0.03
+  data required time                                                  -0.03
+  ----------------------------------------------------------------------------
+  data required time                                                  -0.03
+  data arrival time                                                   -0.28
+  ----------------------------------------------------------------------------
+  slack (MET)                                                          0.31
+
+
+  Startpoint: CLINT_inst/int_addr_o_reg[23]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: PC_inst/pc_o_reg[23]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                     Incr       Path
+  ----------------------------------------------------------------------------
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  CLINT_inst/int_addr_o_reg[23]/CLK (scs130ms_dfxtp_1)      0.00 #     0.00 r
+  CLINT_inst/int_addr_o_reg[23]/Q (scs130ms_dfxtp_1)        0.20       0.20 r
+  U29829/Y (scs130ms_a22oi_1)                               0.05       0.25 f
+  U29833/Y (scs130ms_nand2_1)                               0.04       0.28 r
+  PC_inst/pc_o_reg[23]/D (scs130ms_dfxtp_1)                 0.00       0.28 r
+  data arrival time                                                    0.28
+
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  PC_inst/pc_o_reg[23]/CLK (scs130ms_dfxtp_1)               0.00       0.00 r
+  library hold time                                        -0.03      -0.03
+  data required time                                                  -0.03
+  ----------------------------------------------------------------------------
+  data required time                                                  -0.03
+  data arrival time                                                   -0.28
+  ----------------------------------------------------------------------------
+  slack (MET)                                                          0.31
+
+
+  Startpoint: CLINT_inst/int_addr_o_reg[24]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: PC_inst/pc_o_reg[24]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                     Incr       Path
+  ----------------------------------------------------------------------------
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  CLINT_inst/int_addr_o_reg[24]/CLK (scs130ms_dfxtp_1)      0.00 #     0.00 r
+  CLINT_inst/int_addr_o_reg[24]/Q (scs130ms_dfxtp_1)        0.20       0.20 r
+  U29834/Y (scs130ms_a22oi_1)                               0.05       0.25 f
+  U29838/Y (scs130ms_nand2_1)                               0.04       0.28 r
+  PC_inst/pc_o_reg[24]/D (scs130ms_dfxtp_1)                 0.00       0.28 r
+  data arrival time                                                    0.28
+
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  PC_inst/pc_o_reg[24]/CLK (scs130ms_dfxtp_1)               0.00       0.00 r
+  library hold time                                        -0.03      -0.03
+  data required time                                                  -0.03
+  ----------------------------------------------------------------------------
+  data required time                                                  -0.03
+  data arrival time                                                   -0.28
+  ----------------------------------------------------------------------------
+  slack (MET)                                                          0.31
+
+
+  Startpoint: CLINT_inst/int_addr_o_reg[25]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: PC_inst/pc_o_reg[25]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                     Incr       Path
+  ----------------------------------------------------------------------------
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  CLINT_inst/int_addr_o_reg[25]/CLK (scs130ms_dfxtp_1)      0.00 #     0.00 r
+  CLINT_inst/int_addr_o_reg[25]/Q (scs130ms_dfxtp_1)        0.20       0.20 r
+  U29839/Y (scs130ms_a22oi_1)                               0.05       0.25 f
+  U29842/Y (scs130ms_nand2_1)                               0.04       0.28 r
+  PC_inst/pc_o_reg[25]/D (scs130ms_dfxtp_1)                 0.00       0.28 r
+  data arrival time                                                    0.28
+
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  PC_inst/pc_o_reg[25]/CLK (scs130ms_dfxtp_1)               0.00       0.00 r
+  library hold time                                        -0.03      -0.03
+  data required time                                                  -0.03
+  ----------------------------------------------------------------------------
+  data required time                                                  -0.03
+  data arrival time                                                   -0.28
+  ----------------------------------------------------------------------------
+  slack (MET)                                                          0.31
+
+
+  Startpoint: CLINT_inst/int_addr_o_reg[28]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: PC_inst/pc_o_reg[28]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                     Incr       Path
+  ----------------------------------------------------------------------------
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  CLINT_inst/int_addr_o_reg[28]/CLK (scs130ms_dfxtp_1)      0.00 #     0.00 r
+  CLINT_inst/int_addr_o_reg[28]/Q (scs130ms_dfxtp_1)        0.20       0.20 r
+  U29850/Y (scs130ms_a22oi_1)                               0.05       0.25 f
+  U29854/Y (scs130ms_nand2_1)                               0.04       0.28 r
+  PC_inst/pc_o_reg[28]/D (scs130ms_dfxtp_1)                 0.00       0.28 r
+  data arrival time                                                    0.28
+
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  PC_inst/pc_o_reg[28]/CLK (scs130ms_dfxtp_1)               0.00       0.00 r
+  library hold time                                        -0.03      -0.03
+  data required time                                                  -0.03
+  ----------------------------------------------------------------------------
+  data required time                                                  -0.03
+  data arrival time                                                   -0.28
+  ----------------------------------------------------------------------------
+  slack (MET)                                                          0.31
+
+
+  Startpoint: CLINT_inst/int_addr_o_reg[29]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: PC_inst/pc_o_reg[29]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                     Incr       Path
+  ----------------------------------------------------------------------------
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  CLINT_inst/int_addr_o_reg[29]/CLK (scs130ms_dfxtp_1)      0.00 #     0.00 r
+  CLINT_inst/int_addr_o_reg[29]/Q (scs130ms_dfxtp_1)        0.20       0.20 r
+  U29855/Y (scs130ms_a22oi_1)                               0.05       0.25 f
+  U29857/Y (scs130ms_nand2_1)                               0.04       0.28 r
+  PC_inst/pc_o_reg[29]/D (scs130ms_dfxtp_1)                 0.00       0.28 r
+  data arrival time                                                    0.28
+
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  PC_inst/pc_o_reg[29]/CLK (scs130ms_dfxtp_1)               0.00       0.00 r
+  library hold time                                        -0.03      -0.03
+  data required time                                                  -0.03
+  ----------------------------------------------------------------------------
+  data required time                                                  -0.03
+  data arrival time                                                   -0.28
+  ----------------------------------------------------------------------------
+  slack (MET)                                                          0.31
+
+
+  Startpoint: CLINT_inst/int_addr_o_reg[31]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: PC_inst/pc_o_reg[31]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                     Incr       Path
+  ----------------------------------------------------------------------------
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  CLINT_inst/int_addr_o_reg[31]/CLK (scs130ms_dfxtp_1)      0.00 #     0.00 r
+  CLINT_inst/int_addr_o_reg[31]/Q (scs130ms_dfxtp_1)        0.20       0.20 r
+  U29862/Y (scs130ms_a22oi_1)                               0.05       0.25 f
+  U29866/Y (scs130ms_nand2_1)                               0.04       0.28 r
+  PC_inst/pc_o_reg[31]/D (scs130ms_dfxtp_1)                 0.00       0.28 r
+  data arrival time                                                    0.28
+
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  PC_inst/pc_o_reg[31]/CLK (scs130ms_dfxtp_1)               0.00       0.00 r
+  library hold time                                        -0.03      -0.03
+  data required time                                                  -0.03
+  ----------------------------------------------------------------------------
+  data required time                                                  -0.03
+  data arrival time                                                   -0.28
+  ----------------------------------------------------------------------------
+  slack (MET)                                                          0.31
+
+
+  Startpoint: CLINT_inst/int_addr_o_reg[32]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: PC_inst/pc_o_reg[32]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                     Incr       Path
+  ----------------------------------------------------------------------------
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  CLINT_inst/int_addr_o_reg[32]/CLK (scs130ms_dfxtp_1)      0.00 #     0.00 r
+  CLINT_inst/int_addr_o_reg[32]/Q (scs130ms_dfxtp_1)        0.20       0.20 r
+  U29867/Y (scs130ms_a22oi_1)                               0.05       0.25 f
+  U29871/Y (scs130ms_nand2_1)                               0.04       0.28 r
+  PC_inst/pc_o_reg[32]/D (scs130ms_dfxtp_1)                 0.00       0.28 r
+  data arrival time                                                    0.28
+
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  PC_inst/pc_o_reg[32]/CLK (scs130ms_dfxtp_1)               0.00       0.00 r
+  library hold time                                        -0.03      -0.03
+  data required time                                                  -0.03
+  ----------------------------------------------------------------------------
+  data required time                                                  -0.03
+  data arrival time                                                   -0.28
+  ----------------------------------------------------------------------------
+  slack (MET)                                                          0.31
+
+
+  Startpoint: CLINT_inst/int_addr_o_reg[33]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: PC_inst/pc_o_reg[33]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                     Incr       Path
+  ----------------------------------------------------------------------------
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  CLINT_inst/int_addr_o_reg[33]/CLK (scs130ms_dfxtp_1)      0.00 #     0.00 r
+  CLINT_inst/int_addr_o_reg[33]/Q (scs130ms_dfxtp_1)        0.20       0.20 r
+  U29872/Y (scs130ms_a22oi_1)                               0.05       0.25 f
+  U29874/Y (scs130ms_nand2_1)                               0.04       0.28 r
+  PC_inst/pc_o_reg[33]/D (scs130ms_dfxtp_1)                 0.00       0.28 r
+  data arrival time                                                    0.28
+
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  PC_inst/pc_o_reg[33]/CLK (scs130ms_dfxtp_1)               0.00       0.00 r
+  library hold time                                        -0.03      -0.03
+  data required time                                                  -0.03
+  ----------------------------------------------------------------------------
+  data required time                                                  -0.03
+  data arrival time                                                   -0.28
+  ----------------------------------------------------------------------------
+  slack (MET)                                                          0.31
+
+
+  Startpoint: CLINT_inst/int_addr_o_reg[36]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: PC_inst/pc_o_reg[36]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                     Incr       Path
+  ----------------------------------------------------------------------------
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  CLINT_inst/int_addr_o_reg[36]/CLK (scs130ms_dfxtp_1)      0.00 #     0.00 r
+  CLINT_inst/int_addr_o_reg[36]/Q (scs130ms_dfxtp_1)        0.20       0.20 r
+  U29884/Y (scs130ms_a22oi_1)                               0.05       0.25 f
+  U29888/Y (scs130ms_nand2_1)                               0.04       0.28 r
+  PC_inst/pc_o_reg[36]/D (scs130ms_dfxtp_1)                 0.00       0.28 r
+  data arrival time                                                    0.28
+
+  clock clk (rise edge)                                     0.00       0.00
+  clock network delay (ideal)                               0.00       0.00
+  PC_inst/pc_o_reg[36]/CLK (scs130ms_dfxtp_1)               0.00       0.00 r
+  library hold time                                        -0.03      -0.03
+  data required time                                                  -0.03
+  ----------------------------------------------------------------------------
+  data required time                                                  -0.03
+  data arrival time                                                   -0.28
+  ----------------------------------------------------------------------------
+  slack (MET)                                                          0.31
+
+
+1

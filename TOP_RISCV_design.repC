@@ -1,0 +1,67 @@
+ 
+****************************************
+Report : design
+Design : TOP_RISCV
+Version: U-2022.12-SP7
+Date   : Mon Oct 21 11:56:07 2024
+****************************************
+
+Design allows ideal nets on clock nets.
+
+Library(s) Used:
+
+    scs130ms_tt_1.80v_25C (File: /users/ee500x/e1323337/riscv2/scs130ms_tt_1.80v_25C.db)
+
+Local Link Library:
+
+    {scs130ms_tt_1.80v_25C.db}
+
+Flip-Flop Types:
+
+    No flip-flop types specified.
+
+Latch Types:
+
+    No latch types specified.
+
+Operating Conditions:
+
+
+    Operating Condition Name : scs130ms_tt_1.80v_25C
+    Library : scs130ms_tt_1.80v_25C
+    Process :   1.00
+    Temperature :  25.00
+    Voltage :   1.80
+    Interconnect Model : balanced_tree
+
+Wire Loading Model:
+
+    No wire loading specified.
+
+
+Wire Loading Model Mode: top.
+
+Timing Ranges:
+
+    No timing ranges specified.
+
+Pin Input Delays:
+
+    None specified.
+
+Pin Output Delays:
+
+    None specified.
+
+Disabled Timing Arcs:
+
+    No arcs disabled.
+
+Required Licenses:
+
+    DesignWare
+
+Design Parameters:
+
+    None specified.
+1

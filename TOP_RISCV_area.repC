@@ -1,0 +1,202 @@
+ 
+****************************************
+Report : area
+Design : TOP_RISCV
+Version: U-2022.12-SP7
+Date   : Mon Oct 21 11:56:07 2024
+****************************************
+
+Library(s) Used:
+
+    scs130ms_tt_1.80v_25C (File: /users/ee500x/e1323337/riscv2/scs130ms_tt_1.80v_25C.db)
+
+Number of ports:                          195
+Number of nets:                         22339
+Number of cells:                        21959
+Number of combinational cells:          17457
+Number of sequential cells:              4502
+Number of macros/black boxes:               0
+Number of buf/inv:                       3592
+Number of references:                      74
+
+Combinational area:             145299.352500
+Buf/Inv area:                    20362.017190
+Noncombinational area:          119868.811310
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                265168.163810
+Total area:                 undefined
+1
+ 
+****************************************
+Report : reference
+Design : TOP_RISCV
+Version: U-2022.12-SP7
+Date   : Mon Oct 21 11:56:07 2024
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+scs130ms_a2bb2oi_1 scs130ms_tt_1.80v_25C
+                                 11.188800      38    425.174395  
+scs130ms_a21boi_1  scs130ms_tt_1.80v_25C
+                                 11.188800      10    111.887999  
+scs130ms_a21o_2    scs130ms_tt_1.80v_25C
+                                 11.188800      15    167.831998  
+scs130ms_a21oi_1   scs130ms_tt_1.80v_25C
+                                  6.393600    1059   6770.822386  
+scs130ms_a22o_1    scs130ms_tt_1.80v_25C
+                                 11.188800     916  10248.940670  
+scs130ms_a22oi_1   scs130ms_tt_1.80v_25C
+                                  9.590400    3202  30708.459974  
+scs130ms_a31o_1    scs130ms_tt_1.80v_25C
+                                 11.188800       1     11.188800  
+scs130ms_a31o_2    scs130ms_tt_1.80v_25C
+                                 12.787200       1     12.787200  
+scs130ms_a31oi_1   scs130ms_tt_1.80v_25C
+                                  9.590400      40    383.615990  
+scs130ms_a32oi_1   scs130ms_tt_1.80v_25C
+                                 11.188800      34    380.419195  
+scs130ms_a211o_2   scs130ms_tt_1.80v_25C
+                                 12.787200       2     25.574400  
+scs130ms_a211oi_1  scs130ms_tt_1.80v_25C
+                                  9.590400     248   2378.419136  
+scs130ms_a221o_2   scs130ms_tt_1.80v_25C
+                                 14.385600       1     14.385600  
+scs130ms_a221oi_1  scs130ms_tt_1.80v_25C
+                                 12.787200       9    115.084800  
+scs130ms_a222o_1   scs130ms_tt_1.80v_25C
+                                 15.984000     178   2845.152037  
+scs130ms_a222oi_1  scs130ms_tt_1.80v_25C
+                                 14.385600      15    215.784001  
+scs130ms_a311oi_1  scs130ms_tt_1.80v_25C
+                                 11.188800      21    234.964797  
+scs130ms_a2111oi_1 scs130ms_tt_1.80v_25C
+                                 11.188800       2     22.377600  
+scs130ms_and2_2    scs130ms_tt_1.80v_25C
+                                  7.992000     211   1686.312022  
+scs130ms_and3_1    scs130ms_tt_1.80v_25C
+                                  9.590400       4     38.361599  
+scs130ms_and3b_1   scs130ms_tt_1.80v_25C
+                                 12.787200       2     25.574400  
+scs130ms_and4_1    scs130ms_tt_1.80v_25C
+                                 11.188800       6     67.132799  
+scs130ms_and4b_2   scs130ms_tt_1.80v_25C
+                                 14.385600       1     14.385600  
+scs130ms_bufinv_16 scs130ms_tt_1.80v_25C
+                                 39.959999       2     79.919998  
+scs130ms_clkbuf_2  scs130ms_tt_1.80v_25C
+                                  6.393600       1      6.393600  
+scs130ms_conb_1    scs130ms_tt_1.80v_25C
+                                  4.795200       3     14.385600  
+scs130ms_dfxtp_1   scs130ms_tt_1.80v_25C
+                                 27.172800    3987  108337.953856 n
+scs130ms_dfxtp_2   scs130ms_tt_1.80v_25C
+                                 28.771200       1     28.771200  n
+scs130ms_dlrtp_1   scs130ms_tt_1.80v_25C
+                                 22.377600     514  11502.086254  n
+scs130ms_fa_1      scs130ms_tt_1.80v_25C
+                                 28.771200     154   4430.764828  r
+scs130ms_ha_1      scs130ms_tt_1.80v_25C
+                                 15.984000     124   1982.016026  r
+scs130ms_inv_1     scs130ms_tt_1.80v_25C
+                                  4.795200     558   2675.721528  
+scs130ms_inv_2     scs130ms_tt_1.80v_25C
+                                  4.795200    2774  13301.884442  
+scs130ms_inv_4     scs130ms_tt_1.80v_25C
+                                  7.992000      88    703.296009  
+scs130ms_inv_8     scs130ms_tt_1.80v_25C
+                                 14.385600      78   1122.076807  
+scs130ms_inv_16    scs130ms_tt_1.80v_25C
+                                 27.172800      91   2472.724806  
+scs130ms_maj3_1    scs130ms_tt_1.80v_25C
+                                 12.787200      18    230.169600  
+scs130ms_mux2i_1   scs130ms_tt_1.80v_25C
+                                 12.787200       1     12.787200  
+scs130ms_nand2_1   scs130ms_tt_1.80v_25C
+                                  4.795200    1197   5739.854246  
+scs130ms_nand2_2   scs130ms_tt_1.80v_25C
+                                  7.992000      47    375.624005  
+scs130ms_nand2b_1  scs130ms_tt_1.80v_25C
+                                  7.992000      71    567.432007  
+scs130ms_nand3_1   scs130ms_tt_1.80v_25C
+                                  7.992000      49    391.608005  
+scs130ms_nand3b_1  scs130ms_tt_1.80v_25C
+                                  9.590400       2     19.180799  
+scs130ms_nand4_1   scs130ms_tt_1.80v_25C
+                                  9.590400     660   6329.663830  
+scs130ms_nand4b_1  scs130ms_tt_1.80v_25C
+                                 11.188800       6     67.132799  
+scs130ms_nor2_1    scs130ms_tt_1.80v_25C
+                                  4.795200    1064   5102.092663  
+scs130ms_nor2_2    scs130ms_tt_1.80v_25C
+                                  7.992000       2     15.984000  
+scs130ms_nor2b_1   scs130ms_tt_1.80v_25C
+                                  7.992000      71    567.432007  
+scs130ms_nor3_1    scs130ms_tt_1.80v_25C
+                                  6.393600     189   1208.390398  
+scs130ms_nor3b_1   scs130ms_tt_1.80v_25C
+                                  9.590400      49    469.929587  
+scs130ms_nor3b_2   scs130ms_tt_1.80v_25C
+                                 15.984000       1     15.984000  
+scs130ms_nor4_1    scs130ms_tt_1.80v_25C
+                                  9.590400     126   1208.390368  
+scs130ms_nor4b_1   scs130ms_tt_1.80v_25C
+                                 11.188800       6     67.132799  
+scs130ms_o2bb2ai_1 scs130ms_tt_1.80v_25C
+                                 11.188800     406   4542.652742  
+scs130ms_o21a_1    scs130ms_tt_1.80v_25C
+                                  9.590400      24    230.169594  
+scs130ms_o21ai_1   scs130ms_tt_1.80v_25C
+                                  7.992000     197   1574.424020  
+scs130ms_o21bai_1  scs130ms_tt_1.80v_25C
+                                  9.590400      16    153.446396  
+scs130ms_o22a_2    scs130ms_tt_1.80v_25C
+                                 12.787200       2     25.574400  
+scs130ms_o22ai_1   scs130ms_tt_1.80v_25C
+                                  9.590400    2432  23323.852173  
+scs130ms_o31a_1    scs130ms_tt_1.80v_25C
+                                 11.188800       2     22.377600  
+scs130ms_o31ai_1   scs130ms_tt_1.80v_25C
+                                  9.590400     110   1054.943972  
+scs130ms_o32ai_1   scs130ms_tt_1.80v_25C
+                                 11.188800      44    492.307194  
+scs130ms_o211ai_1  scs130ms_tt_1.80v_25C
+                                  9.590400     446   4277.318285  
+scs130ms_o211ai_2  scs130ms_tt_1.80v_25C
+                                 15.984000       1     15.984000  
+scs130ms_o221ai_1  scs130ms_tt_1.80v_25C
+                                 12.787200      24    306.892799  
+scs130ms_o311ai_1  scs130ms_tt_1.80v_25C
+                                 11.188800      61    682.516791  
+scs130ms_o2111ai_1 scs130ms_tt_1.80v_25C
+                                 11.188800       1     11.188800  
+scs130ms_or2_1     scs130ms_tt_1.80v_25C
+                                  7.992000       1      7.992000  
+scs130ms_or2_2     scs130ms_tt_1.80v_25C
+                                  7.992000      65    519.480007  
+scs130ms_or3_1     scs130ms_tt_1.80v_25C
+                                  9.590400       8     76.723198  
+scs130ms_or4_1     scs130ms_tt_1.80v_25C
+                                 11.188800       3     33.566400  
+scs130ms_or4b_2    scs130ms_tt_1.80v_25C
+                                 14.385600       1     14.385600  
+scs130ms_xnor2_1   scs130ms_tt_1.80v_25C
+                                 11.188800     162   1812.585577  
+scs130ms_xor2_1    scs130ms_tt_1.80v_25C
+                                 12.787200       3     38.361600  
+-----------------------------------------------------------------------------
+Total 74 references                                 265168.163810
+1
